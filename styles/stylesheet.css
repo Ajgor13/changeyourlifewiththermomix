@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #f8fafc;
+}
+main p{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+.nav-container{
+    overflow: hidden;
+    background-color: white;
+}
+.nav-item{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px;
+}
+.nav-item a{
+    text-decoration: none;
+    color:black;
+}
+.nav-item a:hover{
+    color: #009a3b;
+}
+aside{
+    margin-top: 25px;
+    display: inline-block;
+}
+aside p{
+    font-size: 20px;
+}
+.image-container{
+    border: 3px solid #009a3b;
+    border-radius: 10px;
+}
+.image-container p{
+    padding: 20px;
+}
+
+.main-container{
+    display: flex;
+    margin-bottom: 25px;
+}
+.right-image{
+    display: inline;
+    float: right;
+    width: 60vh;
+    margin: 30px;
+}
+.iframe-container{
+    height: 500px;
+    
+    background-color: #eb34de;
+    
+}
+.iframe-container iframe{
+    position: relative;
+    top: 20%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
+.footer-container {
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+}
+.footer-item{
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: white;
+}
+.footer-item a:hover{
+    color: #bfbfd6;
+}

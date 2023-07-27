@@ -42,16 +42,51 @@
         <div class="main-container">
             <main>
                 <form action="https://formsubmit.co/greenanna100@gmail.com" method="POST">
-                    <label for="fname">First Name:</label>
-                    <input id="fname" type="text" name="First name">
-                    <label for="sname">Surname:</label>
-                    <input id="sname" type="text" name="Surname">
-                    <label for="email">Email:</label>
-                    <input id = "email" type="email" name="Email" required>
-                    <label for="postcode">Postcode:</label>
-                    <input id = "postcode" type="text" name="Postcode" required>
-                    <label for="mnumber">Mobile Number:</label>
-                    <input id = "mnumber" type="text" name="Mobile Number" required>
+                    <label class="fname" for="fname" >First Name:</label>
+                    <input class="fname" type="text" name="First name"  required>
+
+                    <label for="sname" class="sname">Surname:</label>
+                    <input class="sname" type="text" name="Surname" required>
+
+                    <label for="email" class = "email" >Email:</label>
+                    <input class = "email" type="email" name="Email" required>
+
+                    <label for="postcode" class = "postcode">Postcode:</label>
+                    <input class = "postcode" type="text" name="Postcode" required>
+                    
+                    <label for="mnumber" class = "mnumber" >Mobile Number:</label>
+                    <input class = "mnumber" type="text" name="Mobile Number" required>
+                    <ul id="radio-buttons">
+                        <li>
+                            <label for="getitfree" class="getitfree">Get thermomix for free by join my team</label>
+                            <input class="getitfree" type="radio" name="radio" value="Free">
+                        </li>
+                        <li>
+                            <label for="onepayment" class="onepayment">Pay for Thermomix by one payment</label>
+                            <input class="onepayment" type="radio" name="radio" value="One payment">
+                        </li>
+            
+                        <li>
+                            <label for="48months" class="48months">32,48 per 48 months</label>
+                            <input class="48months" type="radio" name="radio" value="48 Months">
+                        </li>
+                        <li>
+                            <label for="36months" class="36months">40,62 per 36 months</label>
+                            <input class="36months" type="radio" name="radio" value="36 Months">
+                        </li>
+                        <li>
+                            <label for="24months" class="24months">57,07 per 24 months</label>
+                            <input class="24months" type="radio" name="radio" value="24 Months">
+                        </li>
+                        <li>
+                            <label for="12months" class="12months">106,74 per 12 month</label>
+                            <input class="12months" type="radio" name="radio" value="12 Months">
+                        </li>
+                    </ul>
+                    
+
+                    
+
                     <button type="submit">Send</button>
                </form>
             </main>

@@ -1,10 +1,46 @@
 form input{
-    margin: 10px;
+    margin: auto;
     display: block;
-    width: 40%;
+    width: 60%;
 }
 form{
+    display: grid;
     width: 50%;
     padding: 10px;
     background-color: lightgray;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.fname{
+    grid-column: 1; 
+    grid-row: 1;
+}
+.sname{
+    grid-column: 2; 
+    grid-row: 1;
+}
+.email{
+    grid-column: 1; 
+    grid-row: 2;
+}
+.postcode{
+    grid-column: 2; 
+    grid-row: 2;
+}
+.mnumber{
+    grid-column: 1; 
+    grid-row: 3;
+}
+.getitfree{
+    grid-column: 2;
+    grid-row: 3;
+}
+#radio-buttons{
+    grid-column: 2;
+    grid-row: 3/7;
+    
+}
+#radio-buttons li{
+    list-style-type: none;
+    margin: auto;
 }

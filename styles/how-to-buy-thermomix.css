@@ -1,0 +1,10 @@
+form input{
+    margin: 10px;
+    display: block;
+    width: 40%;
+}
+form{
+    width: 50%;
+    padding: 10px;
+    background-color: lightgray;
+}

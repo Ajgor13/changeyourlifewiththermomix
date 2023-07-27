@@ -9,6 +9,7 @@ body{
 }
 main{
     margin: 10px;
+    min-height: 100vh;
 }
 
 .header-container{

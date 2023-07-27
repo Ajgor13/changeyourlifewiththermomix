@@ -1,15 +1,30 @@
 form input{
     margin: auto;
     display: block;
-    width: 60%;
+    width: 50%;
 }
 form{
+    margin: auto;
     display: grid;
-    width: 50%;
+    width: 85%;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #eda6e0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    border-radius: 20px;
+    border: 3px dotted #c78bbc;
+}
+form label{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-bottom: 15px;
+    clear: right;
+}
+form input{
+    display: inline-block;
+    margin-left: auto;
+    
+    height: 1.5em;
 }
 .fname{
     grid-column: 1; 
@@ -43,4 +58,11 @@ form{
 #radio-buttons li{
     list-style-type: none;
     margin: auto;
+}
+#submit{
+
+    grid-column: 1;
+    grid-row: 5/7;
+    height: 75%;
+    width: 100%;
 }

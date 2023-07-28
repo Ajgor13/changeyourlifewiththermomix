@@ -14,18 +14,6 @@
     font-size: 30px;
     grid-row: 1;
 }
-.text-container p{
-    line-height: 1.6;
-    margin: 10px;
-    grid-column: 1/4;
-    font-size: 30px;
-    grid-row: 2;
-    text-align: center;
-    margin: 50px;
-    border: 3px black dotted;
-    border-radius: 20px;
-    background-color: #eda6e0;
-}
 #friend{
     grid-column: 1;
     grid-row: 1;

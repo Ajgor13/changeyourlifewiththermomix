@@ -36,6 +36,7 @@ header ul{
 .nav-container{
     text-align: center;
     overflow: hidden;
+    width: 100vw;
     background-color: #69ad58;
     border: 1px black dotted;
 }
@@ -69,7 +70,7 @@ header ul{
     position: absolute;
     display: inline-block;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     background-color: #69ad58;
     margin-bottom: -10px;

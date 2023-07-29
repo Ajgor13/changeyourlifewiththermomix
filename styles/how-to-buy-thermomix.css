@@ -51,21 +51,34 @@ form input{
 #radio-buttons{
     grid-column: 2;
     grid-row: 3/7;
-    grid-template-rows: repeat(3,1fr);
-    
+    padding: 0;
 }
 #radio-buttons li{
     list-style-type: none;
-    margin: auto;
 }
 .getitfree{
-    grid-row: 1;
 }
-.onepayment{
-    grid-row: 2;
+.getitfreeinput{
+    position: relative;
+    left: 0%;
+    width: 10%;
+
+}
+.getitfreelabel{
+    position: relative;
+    left: 10%;
+}
+.onepaymentinput{
+    position: relative;
+    left: 0%;
+    width: 10%;
+}
+.onepaymentlabel{
+    position: relative;
+    left: 10%;
 }
 .spreadpayments{
-    grid-row: 3;
+    
 }
 
 #submit{

@@ -2,7 +2,7 @@
 form{
     margin: auto;
     display: grid;
-    width: 85%;
+    width: 98%;
     padding: 10px;
     background-color: #eda6e0;
     grid-template-columns: repeat(2, 1fr);
@@ -51,36 +51,50 @@ form input{
 #radio-buttons{
     grid-column: 2;
     grid-row: 3/7;
-    padding: 0;
-}
-#radio-buttons li{
-    list-style-type: none;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
 }
 .getitfree{
 }
 .getitfreeinput{
+    grid-row: 1;
     position: relative;
     left: 0%;
     width: 10%;
 
 }
 .getitfreelabel{
-    position: relative;
-    left: 10%;
+    grid-row: 1;
+    left: 3%;
 }
 .onepaymentinput{
+    grid-row: 2;
     position: relative;
     left: 0%;
     width: 10%;
 }
 .onepaymentlabel{
-    position: relative;
-    left: 10%;
+    grid-row: 2;
+    left: 3%;
 }
 .spreadpayments{
     
+    grid-row: 3/5;
+    
 }
-
+.spreadpaymentsinput{
+    position: relative;
+    height: 2em;
+    width: 90%;
+    margin-top: 20px;
+    left: 3%;
+    
+}
+.spreadpaymentslabel{
+    position: relative;
+    width: 100%;
+    left: 3%;
+    white-space: nowrap;
+}
 #submit{
 
     grid-column: 1;
@@ -94,10 +108,7 @@ form input{
 #submit:hover{
     background-color: aqua;
 }
-#spreadpayments{
-    height: 2em;
-    width: 85%;
-}
+
 #text-container video{
     width: 20%;
 }
@@ -120,3 +131,4 @@ form input{
     font-size: 30px;
     top:40%;
 }
+

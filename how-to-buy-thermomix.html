@@ -62,27 +62,22 @@
                     <label for="mnumber" class = "mnumber" >Phone Number:</label>
                     <input class = "mnumber" type="text" name="Mobile Number" required>
 
-                    <ul id="radio-buttons">
-                        <li>
-                            <label for="getitfree" class="getitfree getitfreelabel">Get thermomix for free by join my team</label>
-                            <input class="getitfree getitfreeinput" type="radio" name="Payment type" value="Free">
-                         
-                        </li>
-                        <li>
-                            <label for="onepayment" class="onepayment onepaymentlabel">Pay for Thermomix in one payment</label>
-                            <input class="onepayment onepaymentinput" type="radio" name="Payment type" value="One payment">
-                        </li>
-                        <li>
-                        <label for="spreadpayments" class="spreadpayments">pay for Thermomix by spread payments:</label> 
-                        <select id="spreadpayments" name="Spread payment">
+                    <div id="radio-buttons">
+                        <input class="getitfree getitfreeinput" type="radio" name="Payment type" value="Free">
+                        <label for="getitfree" class="getitfree getitfreelabel">Get thermomix for free by join my team</label>
+                        
+                        <input class="onepayment onepaymentinput" type="radio" name="Payment type" value="One payment">
+                        <label for="onepayment" class="onepayment onepaymentlabel">Pay for Thermomix in one payment</label>
+                        
+                        <label for="spreadpayments" class="spreadpayments spreadpaymentslabel">Pay for Thermomix by spread payments:</label> 
+                        <select class="spreadpayments spreadpaymentsinput" name="Spread payment">
                             <option value="48 motnhs">none</option>
                             <option value="48 motnhs">32,48 per 48 months</option>
                             <option value="36 months">40,62 per 36 months</option>
                             <option value="24 months">57,07 per 24 months</option>
                             <option value="12 months">106,74 per 12 month</option>
                         </select>
-                        </li>
-                    </ul>
+                    </div>
                     
 
                     <button id="submit" type="submit">Send your request & book your demo</button>

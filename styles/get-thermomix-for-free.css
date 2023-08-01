@@ -1,0 +1,77 @@
+#video-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 1em;
+    
+}
+#video1{
+    position: relative;
+    left: 25vw;
+    width: 50vw;
+    grid-column: 1;
+    grid-row: 1/3;
+    margin-bottom: 10%;
+    
+}
+#video-container p{
+    position: relative;
+    grid-column: 2;
+    font-size: 30px;
+    top:40%;
+}
+form{
+    margin: auto;
+    display: grid;
+    width: 98%;
+    padding: 10px;
+    background-color: #eda6e0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 20px;
+    border: 3px dotted #c78bbc;
+}
+form label{
+    position: relative;
+    top: 5%;
+    font-size: 2em;
+    
+}
+form input{
+    position: relative;
+    left: 45%;
+    top: 5%;
+    height: 2em;
+    width: 50%;
+    border: 1px solid black;
+}
+.fname{
+    grid-column: 1; 
+    grid-row: 1;
+}
+.sname{
+    grid-column: 2; 
+    grid-row: 1;
+}
+.email{
+    grid-column: 1; 
+    grid-row: 2;
+}
+.postcode{
+    grid-column: 2; 
+    grid-row: 2;
+}
+.mnumber{
+    grid-column: 1; 
+    grid-row: 3;
+}
+#submit{
+
+    grid-column: 1;
+    grid-row: 5/7;
+    height: 60%;
+    width: 100%;
+    font-size: 2em;
+    background-color: #69ad58;
+    border: 2px solid black;
+}

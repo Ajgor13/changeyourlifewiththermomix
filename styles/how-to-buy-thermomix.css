@@ -69,7 +69,7 @@ form input{
     position: relative;
     left: 0%;
     width: 10%;
-    margin-bottom: 5px;
+    margin-bottom: ;
 }
 .onepaymentlabel{
     grid-row: 2;
@@ -108,9 +108,6 @@ form input{
     background-color: aqua;
 }
 
-#text-container video{
-    width: 20%;
-}
 #video-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

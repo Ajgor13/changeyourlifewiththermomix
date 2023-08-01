@@ -53,8 +53,6 @@ form input{
     grid-row: 3/7;
     grid-template-rows: 1fr 1fr 2fr 1fr;
 }
-.getitfree{
-}
 .getitfreeinput{
     grid-row: 1;
     position: relative;
@@ -71,6 +69,7 @@ form input{
     position: relative;
     left: 0%;
     width: 10%;
+    margin-bottom: 5px;
 }
 .onepaymentlabel{
     grid-row: 2;

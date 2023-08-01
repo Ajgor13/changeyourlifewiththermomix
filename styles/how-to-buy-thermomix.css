@@ -87,6 +87,7 @@ form input{
     left: 5vw;
 }
 .spreadpaymentsinput{
+    text-align: center;
     grid-row: 4;
     position: relative;
     height: 100%;

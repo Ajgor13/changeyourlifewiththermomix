@@ -86,23 +86,29 @@ form input{
 
     left: 5vw;
 }
-.spreadpaymentsinput{
+.spreadpaymentsselect{
     text-align: center;
     grid-row: 4;
     position: relative;
-    height: 100%;
+    height: 7vh;
     width: 90%;
     left: 5vw;
     
     
 }
-.spreadpaymentslabel{
-    margin-top: 1em;
+.spreadpaymentsinput{
     grid-row:3;
+    grid-column: 1;
+    position: relative;
+    left: 0;
+    width: 10%;
+}
+.spreadpaymentslabel{
+    grid-row:3;
+    grid-column: 1;
     position: relative;
     width: 100%;
     left: 5vw;
-    white-space: nowrap;
 }
 #submit{
 

@@ -13,8 +13,7 @@
     display: block;
 }
 #yt-video{
-    position: relative;
-    width: 50vw;
-    height: auto;
-    left: 25vw;
+    display: block;
+    margin: 10px auto;
+    
 }

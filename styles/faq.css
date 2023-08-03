@@ -36,3 +36,11 @@ h2{
     margin-top: 20px;
     margin-inline: auto;
 }
+#image1{
+    width: 20vw;
+    
+    float: right;
+    border-radius: 30%;
+    margin-top: 2em;
+    
+}

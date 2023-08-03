@@ -41,7 +41,7 @@ form input{
     position: relative;
     left: 45%;
     top: 5%;
-    height: 4vh;
+    height: min(4vh,35px);
     width: 50%;
     border: 1px solid black;
     margin-bottom: 0.5em;

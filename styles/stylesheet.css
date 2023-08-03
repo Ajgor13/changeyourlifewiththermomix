@@ -79,7 +79,7 @@ header ul{
 }
 
 .footer-container{
-    position: absolute;
+    position: relative;
     display: inline-block;
     bottom: 0;
     width: 100vw;

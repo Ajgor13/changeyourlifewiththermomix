@@ -1,0 +1,9 @@
+.text-container ol{
+    line-height: 1.6;
+    margin: 10px;
+    grid-column: 1/4;
+    font-size: 30px;
+    grid-row: 2;
+    margin: 50px;
+
+}

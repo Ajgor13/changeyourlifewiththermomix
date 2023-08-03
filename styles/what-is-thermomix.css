@@ -12,10 +12,16 @@
 #image1{
     width: 30vw;
     float: left;
+    margin: 15px;
 }
 #image2{
     width: 30vw;
     float:right;
     border-radius: 25%;
     margin: 0.5em;
+}
+h2{
+    color: darkorchid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }

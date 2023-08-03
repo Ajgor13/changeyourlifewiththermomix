@@ -20,7 +20,7 @@ h2{
 .a{
     width: 95vw;
     height: auto;
-    background-color: #adadad;
+    background-color: #ededed;
     border-radius: 10px;
     align-items: center;
     margin-inline: auto;
@@ -29,7 +29,8 @@ h2{
 .q{
     width: 95vw;
     height: auto;
-    background-color: #ededed;
+    
+    background-color: #adadad;
     border-radius: 10px;
     align-items: center;
     margin-top: 20px;

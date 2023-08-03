@@ -4,7 +4,7 @@
         <title>change your life with Thermomix</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="styles/stylesheet.css" />
-        <link rel="stylesheet" href="styles/" />
+        <link rel="stylesheet" href="styles/contact-me.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
         <script type="module" src="scripts/main.js"></script>
     </head>
@@ -40,7 +40,32 @@
         <div class="main-container">
             <main>        
                 <div class="text-container">
+                    <h1>Contact me:</h1>
+                    <p>By phone:<a href="tel:07719755330">07719755330</a></p>
+                    <p>By email:<a href="mailto:greenanna100@gmail.com">greenanna100@gmail.com</a></p>
+                    <p>Or simply fill in the form below</p>
+                    
+                </div>
+                <form action="https://formsubmit.co/greenanna100@gmail.com" method="POST">
+                    <label class="fname" for="fname">First Name:</label>
+                    <input class="fname" type="text" name="First name"  required>
+
+                    <label for="sname" class="sname">Surname:</label>
+                    <input class="sname" type="text" name="Surname" required>
+
+                    <label for="email" class = "email" >Email:</label>
+                    <input class = "email" type="email" name="Email" required>
+
+                    <label for="postcode" class = "postcode">Postcode:</label>
+                    <input class = "postcode" type="text" name="Postcode" required>
+                    
+                    <label for="mnumber" class = "mnumber" >Phone Number:</label>
+                    <input class = "mnumber" type="text" name="Mobile Number" required>
+                    
+                    <button id="submit" type="submit">Send your request & book your demo</button>
+               </form>
             </main>
+            
         </div>
         
 

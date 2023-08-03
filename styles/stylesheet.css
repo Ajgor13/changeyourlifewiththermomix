@@ -80,11 +80,12 @@ header ul{
 
 .footer-container{
     position: relative;
-    display: inline-block;
+    display: block;
     bottom: 0;
     width: 100vw;
     height: 60px;
     background-color: #69ad58;
+    clear: both;
 }
 .footer-item{
     list-style-type: none;

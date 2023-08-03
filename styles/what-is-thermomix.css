@@ -1,9 +1,21 @@
 .text-container ol{
+
     line-height: 1.6;
     margin: 10px;
     grid-column: 1/4;
     font-size: 30px;
     grid-row: 2;
     margin: 50px;
+    clear: both;
 
+}
+#image1{
+    width: 30vw;
+    float: left;
+}
+#image2{
+    width: 30vw;
+    float:right;
+    border-radius: 25%;
+    margin: 0.5em;
 }

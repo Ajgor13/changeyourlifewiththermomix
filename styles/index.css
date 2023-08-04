@@ -1,45 +1,41 @@
 .text-container {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr auto;
-    grid-template-rows: auto auto auto auto auto;
-    gap:20px;
-    
+    margin: auto;  
 }
 .text-container p{
+    position: relative;
     line-height: 1.6;
-    margin: auto;
-    grid-column: 1/4;
+    margin: 1em;
     font-size: 30px;
-    grid-row: 2;
     text-align: center;
     margin: 50px;
     border: 3px black dotted;
     border-radius: 20px;
     background-color: #eda6e0;
+    clear: both;
 }
 .text-container h1{
-    position: relative;
-    top: 40%;
-    vertical-align: text-bottom;
+    position: relative; 
     text-align: center;
-    grid-column: 2/4;
     font-size: 30px;
-    grid-row: 1;
 }
 #friend{
-    grid-column: 1;
-    grid-row: 1;
+    width: 35vw;
+    float: left;
+    margin: 1em;
+}
+h1{
+    display: inline-block;
 }
 #cupcake{
-    grid-column: 3;
-    grid-row: 3;
-    width: 100%;
+    width: 25vw;
+    float: right;
+
 }
 #video{
-    grid-column: 2;
-    grid-row:4;
+    position: relative;
     margin-bottom: 50px;
+    width: 40vw;
+    left: 30vw;
 }
 #links{
     position: relative;
@@ -47,6 +43,4 @@
     text-align: center;
     font-size: 35px;
     display: block;
-    grid-column: 1/3;
-    grid-row:3;
 }

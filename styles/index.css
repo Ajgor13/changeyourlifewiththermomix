@@ -14,7 +14,8 @@
     clear: both;
 }
 .text-container h1{
-    position: relative; 
+    display: block;
+    position: relative;
     text-align: center;
     font-size: 30px;
 }
@@ -34,8 +35,8 @@ h1{
 #video{
     position: relative;
     margin-bottom: 50px;
+    margin-inline: 20px;
     width: 40vw;
-    left: 30vw;
 }
 #links{
     position: relative;

@@ -34,7 +34,7 @@ header ul{
 .header-item{
     list-style-type: none;
     display: inline-block;
-    margin-inline: 1em;
+    margin-inline: 2em;
     margin-top: 15px;
     font-size: 1.5em;
 }
@@ -95,7 +95,7 @@ header ul{
 .footer-item{
     list-style-type: none;
     display: inline-block;
-    margin-inline: 1em;
+    margin-inline: 2em;
     margin-top: 15px;
     font-size: 1.5em;
     
@@ -106,4 +106,10 @@ header ul{
 }
 .footer-item a:hover{
     color: purple;
+}
+.envelope-icon{
+    margin-right: 15px;
+}
+.fa-phone{
+    margin-right: 15px;
 }

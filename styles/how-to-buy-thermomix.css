@@ -9,6 +9,7 @@ form{
     grid-template-rows: repeat(6, 1fr);
     border-radius: 20px;
     border: 3px dotted #c78bbc;
+    margin-top: 3em;
 }
 form label{
     position: relative;
@@ -142,5 +143,6 @@ form input{
     grid-column: 2;
     font-size: 30px;
     top:40%;
+    font-weight: bold;
 }
 

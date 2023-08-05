@@ -2,6 +2,7 @@
     margin: auto;  
 }
 .text-container p{
+    text-indent: 3em;
     position: relative;
     line-height: 1.6;
     margin: 1em;
@@ -13,6 +14,7 @@
     background-color: #eda6e0;
     clear: both;
 }
+
 .text-container h1{
     display: block;
     position: relative;

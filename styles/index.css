@@ -17,25 +17,19 @@
     display: block;
     position: relative;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 12.5%;
 }
 #friend{
     width: 35vw;
     float: left;
     margin: 1em;
 }
-h1{
-    display: inline-block;
-}
-#cupcake{
-    width: 25vw;
-    float: right;
-
-}
 #video{
     position: relative;
     margin-bottom: 50px;
     margin-inline: 20px;
+    left: 30vw;
     width: 40vw;
 }
 #links{
